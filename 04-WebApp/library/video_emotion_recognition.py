@@ -9,7 +9,7 @@ import os
 import requests
 import argparse
 from collections import OrderedDict
-
+import webbrowser
 ### Image processing ###
 import cv2
 from scipy.ndimage import zoom
@@ -328,6 +328,7 @@ def gen():
                     writer.writerow(row)
                 d.close()
             K.clear_session()
+            webbrowser.open('http://127.0.0.1:5000/video_dash', new=0, autoraise=True)
             break
 
 # Clear session to allow user to do another test afterwards

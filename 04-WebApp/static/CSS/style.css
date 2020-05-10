@@ -1,6 +1,5 @@
-/* Le CSS va ici */
 html * {
-   font-family: Arial;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -49,7 +48,7 @@ input:focus{
 
 input[type="submit"] {
     border-radius: 10px;
-    background: #45AF7F;
+    background: #11625C;
     border: 1px solid #f2f2f2;
     color: #ffffff;
     cursor: default;
@@ -119,7 +118,7 @@ input[type="text"] {
 /* The alert message box */
 .Won {
   padding: 20px;
-  background-color: #7cc958; /* Green */
+  background-color: #56EBEB; /* Green */
   color: white;
   width: 500px;
   margin: auto;
@@ -240,7 +239,6 @@ textarea {
 
 .you { background: #ff0000;}
 .others { background: #69b3a2;}
-}
 
 /*HTML Horizonal Legend*/
 .country-name {
